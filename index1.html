@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week-4-Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+
+</head>
+<body>
+	
+	<div id= "container">
+
+		<h1>Crystal Collector!</h1>
+
+		<div id="instructions">
+
+			<p><li>You will be given a random number at the start of the game.
+			<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+			<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+			<li>The value of each crystal is hidden from you until you click on it.
+			<li>Each time when the game starts, the game will change the value of each crystal.</li></li></li></li></li></p> 
+
+		</div>
+
+		<div id= "ournumber"><h3>Our Number is: </h3>
+			<span id="randomnumber"></span>
+		</div>
+			
+		<div id ="score">
+			 <h3>
+			 	Wins:<span id="numberwins"></span> </br>
+				Losses:<span id="numberlosses"></span>
+			</h3>
+		</div>
+
+		<div class="crystals">
+			
+			<img src="assets/images/4.png" width="90px" height="90px" class = crystal1 id ="one" alt="white">
+			<img src="assets/images/3.png" width="90px" height="90px" class = crystal1 id ="two" alt="purple">
+			<img src="assets/images/5.png" width="90px" height="90px" class = crystal1 id ="three" alt="red">
+			<img src="assets/images/6.png" width="90px" height="90px" class = crystal1 id ="four" alt="white">
+
+		</div>
+
+		<div class="yourscore"> 
+			<h2>Your total score is: </h2> 
+			<span id="totalscore"> </span> 
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game1.js"></script>
+
+
+
+</body>
+</html>

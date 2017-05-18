@@ -1,0 +1,56 @@
+body{margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	align-items: center;
+	align-content: center;
+	}
+
+#container{ border: 3px solid grey;
+	background-color: white;
+	width: 800px;
+	text-align: center;
+	margin-left:10px;
+	margin-right: 10px;
+	align-items: center;
+	align-content: center;
+
+ }
+
+h1{color: orange;
+	text-align: center;
+	}
+
+#instructions {text-align: :center;
+	line-height: 30px;
+margin-left: 10px;
+margin-right: 10px;}
+
+#ournumber{float:left;
+	margin-left: 120px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	}
+
+#randomnumber{font-size: 30px;}
+
+#score{line-height: 35px;
+	margin-top: 10px;
+}
+
+#numberwins{font-size: 30px;}
+
+#numberlosses{font-size: 30px;}
+
+.crystals{margin-top: 50px;
+	align-items: center;
+	margin-right: 20px;
+	}
+
+.yourscore{margin-bottom: 30px;
+		margin-top: 20px;
+
+}
+
+#totalscore{font-size: 30px;
+	color:Red;
+	font-weight: bold;}
